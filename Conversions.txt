@@ -1,0 +1,19 @@
+//char to int 
+a-'0'
+//int to char 
+static_cast<char>(ans+'0')
+//int to string
+to_string()
+//string to int
+stoi()
+//sorting vector pair by second element(ascending order)
+bool sortbysec(const pair<int,int> &a,
+              const pair<int,int> &b)
+{
+    return (a.second < b.second);
+}
+//Subarray or Substring
+Contiguous part of array/string
+//Subsequence
+Sequence that can be derived from another sequence by removing 0 or more elements without changing order
+// A number lets say 36 is divisible by 3 then 360,3600,360000000000000000000000000000 will also be divisble by 3
